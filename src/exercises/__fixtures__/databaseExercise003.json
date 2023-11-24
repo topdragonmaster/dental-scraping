@@ -1,0 +1,702 @@
+[
+  {
+    "employee": "Gregory Hayes",
+    "id": "59f91b56-d120-442b-96c9-5a4890599092",
+    "sub_total": 36847745,
+    "tax": 1614003,
+    "total": 38461748
+  },
+  {
+    "employee": "Shannon Pagac",
+    "id": "fec97868-08ee-4123-89f9-9add831b406d",
+    "sub_total": 37122746,
+    "tax": 1285368,
+    "total": 38408114
+  },
+  {
+    "employee": "Sharon Kirlin",
+    "id": "6c201d17-66f8-4e51-87ad-1dfde392a70c",
+    "sub_total": 37149060,
+    "tax": 1252093,
+    "total": 38401153
+  },
+  {
+    "employee": "Jodi Ledner",
+    "id": "0d2c1c7d-8120-481a-b9b1-4afd80092877",
+    "sub_total": 36568832,
+    "tax": 1406065,
+    "total": 37974897
+  },
+  {
+    "employee": "Vincent Legros",
+    "id": "e1d971d6-5ea0-4ffa-b743-802d5611c0d7",
+    "sub_total": 35220860,
+    "tax": 1524003,
+    "total": 36744863
+  },
+  {
+    "employee": "Rodney VonRueden",
+    "id": "fe975b2e-905a-47a7-ab4a-e77496ea2853",
+    "sub_total": 34495623,
+    "tax": 1386109,
+    "total": 35881732
+  },
+  {
+    "employee": "Bryan Auer",
+    "id": "6e85fff0-a3ad-4c8f-b4c3-b24a501c9a6b",
+    "sub_total": 34265585,
+    "tax": 1499449,
+    "total": 35765034
+  },
+  {
+    "employee": "Clinton Friesen",
+    "id": "24ded0a7-ba8c-490b-9c33-77f1cf143b72",
+    "sub_total": 34209275,
+    "tax": 1536619,
+    "total": 35745894
+  },
+  {
+    "employee": "Hilda Mueller",
+    "id": "25aeb525-9930-4c28-bbb3-b257b87a6f25",
+    "sub_total": 34355295,
+    "tax": 1210569,
+    "total": 35565864
+  },
+  {
+    "employee": "Alonzo Schiller",
+    "id": "3165f977-d4ba-4c2d-a761-c1768a7de5e0",
+    "sub_total": 34004422,
+    "tax": 1447075,
+    "total": 35451497
+  },
+  {
+    "employee": "Gustavo Hyatt",
+    "id": "f92da5a6-9251-42dd-86d5-1f098ae3dd18",
+    "sub_total": 34170591,
+    "tax": 1120389,
+    "total": 35290980
+  },
+  {
+    "employee": "Adrian Metz",
+    "id": "8c3e2073-2afa-431a-a7c1-06d360e5dc27",
+    "sub_total": 33759488,
+    "tax": 1458508,
+    "total": 35217996
+  },
+  {
+    "employee": "Sonya Von",
+    "id": "1238690c-7038-4a4d-a449-63fa9acf4e11",
+    "sub_total": 34222993,
+    "tax": 848070,
+    "total": 35071063
+  },
+  {
+    "employee": "Gustavo Hyatt",
+    "id": "24625650-d84d-4c6e-84b4-35371ad50bb9",
+    "sub_total": 33784505,
+    "tax": 1238364,
+    "total": 35022869
+  },
+  {
+    "employee": "Janis Hahn",
+    "id": "7bcf04bc-3b28-4513-a8bb-98ffb44440ab",
+    "sub_total": 33206521,
+    "tax": 1041095,
+    "total": 34247616
+  },
+  {
+    "employee": "Doyle Senger",
+    "id": "df442996-be06-45a7-98b0-eff569d320d0",
+    "sub_total": 32896689,
+    "tax": 1221341,
+    "total": 34118030
+  },
+  {
+    "employee": "Charles Cassin",
+    "id": "4621dbf8-ed61-4a3e-a980-413978ca0792",
+    "sub_total": 32836716,
+    "tax": 1196942,
+    "total": 34033658
+  },
+  {
+    "employee": "Gustavo Hyatt",
+    "id": "2d2e4a12-7d5d-413f-90c2-9f721f1c918a",
+    "sub_total": 32559167,
+    "tax": 1236046,
+    "total": 33795213
+  },
+  {
+    "employee": "Rosemarie Thompson",
+    "id": "e3fc02f2-4912-4561-9017-3024c75ab73a",
+    "sub_total": 32388064,
+    "tax": 1391353,
+    "total": 33779417
+  },
+  {
+    "employee": "Megan Heller",
+    "id": "fee009d6-6e5b-42c8-9fbe-77f08b4c107e",
+    "sub_total": 32392111,
+    "tax": 1347929,
+    "total": 33740040
+  },
+  {
+    "employee": "Harriet Streich",
+    "id": "7015377c-11e0-4e79-9be0-076a2e64b98f",
+    "sub_total": 32237977,
+    "tax": 1340752,
+    "total": 33578729
+  },
+  {
+    "employee": "Dennis Raynor",
+    "id": "47d2b524-bfad-45e1-9a4f-1b087fc855dc",
+    "sub_total": 31680995,
+    "tax": 1533327,
+    "total": 33214322
+  },
+  {
+    "employee": "Geoffrey Hoppe",
+    "id": "38a29828-1e56-4c50-ad31-80b9ae06da6c",
+    "sub_total": 31955406,
+    "tax": 1211147,
+    "total": 33166553
+  },
+  {
+    "employee": "Patsy Wuckert",
+    "id": "cf788579-db4e-49a3-b1d0-3fa2a4c3913c",
+    "sub_total": 31501679,
+    "tax": 1473723,
+    "total": 32975402
+  },
+  {
+    "employee": "Lewis Treutel",
+    "id": "63454fce-ba84-40bb-b4f3-baaa90b7e597",
+    "sub_total": 32072438,
+    "tax": 831541,
+    "total": 32903979
+  },
+  {
+    "employee": "Alton Reichel",
+    "id": "c31aa87d-3622-45f2-9a16-1d66104dd74d",
+    "sub_total": 31156778,
+    "tax": 1557832,
+    "total": 32714610
+  },
+  {
+    "employee": "Lela Blanda",
+    "id": "2b933478-bd24-4696-92ed-1bba40124bd7",
+    "sub_total": 31591901,
+    "tax": 1030407,
+    "total": 32622308
+  },
+  {
+    "employee": "Katherine Becker",
+    "id": "f1ef4ac2-64e4-4588-a6a1-1de120dc4450",
+    "sub_total": 31677629,
+    "tax": 876397,
+    "total": 32554026
+  },
+  {
+    "employee": "Dwight Thiel",
+    "id": "a1f978dc-74ea-481e-a60e-1edb286725b3",
+    "sub_total": 31354813,
+    "tax": 992369,
+    "total": 32347182
+  },
+  {
+    "employee": "Charles Cassin",
+    "id": "cc45e968-58ae-48b7-8dd9-b9a71420d7fe",
+    "sub_total": 31304104,
+    "tax": 975105,
+    "total": 32279209
+  },
+  {
+    "employee": "Angelica Keebler",
+    "id": "6fc7b498-3d9d-4ea9-a159-86436e555762",
+    "sub_total": 31396751,
+    "tax": 778572,
+    "total": 32175323
+  },
+  {
+    "employee": "Floyd Ratke",
+    "id": "212308b1-0d32-45b9-8dad-729ecd1c7c1d",
+    "sub_total": 30958979,
+    "tax": 1173676,
+    "total": 32132655
+  },
+  {
+    "employee": "Faye Schaefer",
+    "id": "db44e20c-47b2-4926-bcc5-8140c4107e76",
+    "sub_total": 30619882,
+    "tax": 1488474,
+    "total": 32108356
+  },
+  {
+    "employee": "Orville Ritchie",
+    "id": "2cb5d6cd-be2d-449b-9ae3-7bad317dc9ca",
+    "sub_total": 30802116,
+    "tax": 1239945,
+    "total": 32042061
+  },
+  {
+    "employee": "Marjorie Stracke",
+    "id": "8e7986ac-332e-4fb6-995e-4da48dceaec3",
+    "sub_total": 31121197,
+    "tax": 811629,
+    "total": 31932826
+  },
+  {
+    "employee": "Wendy Harber",
+    "id": "a43a9553-c872-424b-96d4-c60bf48eabc0",
+    "sub_total": 30441226,
+    "tax": 1371346,
+    "total": 31812572
+  },
+  {
+    "employee": "Victoria Hilll",
+    "id": "36e3aa95-9360-4af8-a84e-db1b3a16c743",
+    "sub_total": 30580572,
+    "tax": 1171248,
+    "total": 31751820
+  },
+  {
+    "employee": "Eddie MacGyver",
+    "id": "ec694e3f-fb45-4b73-a3d4-2ffe9e1c7971",
+    "sub_total": 30221933,
+    "tax": 1350442,
+    "total": 31572375
+  },
+  {
+    "employee": "Dwight Thiel",
+    "id": "329f3157-3bb5-4237-9735-f965f29725f7",
+    "sub_total": 30356061,
+    "tax": 1158612,
+    "total": 31514673
+  },
+  {
+    "employee": "Agnes Langworth",
+    "id": "6721e69c-e465-48bd-938a-6968151d12fa",
+    "sub_total": 30325104,
+    "tax": 1162767,
+    "total": 31487871
+  },
+  {
+    "employee": "Matthew Stark",
+    "id": "3787071c-8e93-4c11-89e1-95aa36ade9a4",
+    "sub_total": 30115770,
+    "tax": 1368323,
+    "total": 31484093
+  },
+  {
+    "employee": "Dustin Kilback",
+    "id": "49486be6-005d-4403-87be-cd141defecd1",
+    "sub_total": 30315281,
+    "tax": 1125480,
+    "total": 31440761
+  },
+  {
+    "employee": "Yolanda Purdy",
+    "id": "c064152c-6eec-49d0-b45a-4f0eaccbf03c",
+    "sub_total": 30061117,
+    "tax": 1242390,
+    "total": 31303507
+  },
+  {
+    "employee": "Wanda Stroman",
+    "id": "669c17ce-5021-4c46-9533-6f70d3b67ce6",
+    "sub_total": 30083605,
+    "tax": 1198585,
+    "total": 31282190
+  },
+  {
+    "employee": "Patti Collins",
+    "id": "ee2181a4-a5b4-42fd-b2a3-2754dc9381fe",
+    "sub_total": 30023195,
+    "tax": 1233608,
+    "total": 31256803
+  },
+  {
+    "employee": "Emanuel Grimes",
+    "id": "350fc795-b829-4ad9-b28a-0e18d517170d",
+    "sub_total": 30275755,
+    "tax": 968233,
+    "total": 31243988
+  },
+  {
+    "employee": "Eleanor Ledner",
+    "id": "734eae7c-4fb3-41ab-b668-a2d16c34ee64",
+    "sub_total": 30350683,
+    "tax": 862861,
+    "total": 31213544
+  },
+  {
+    "employee": "Alan Schuppe",
+    "id": "08cb6d74-878a-4260-9b39-53dd9305f6ef",
+    "sub_total": 30233039,
+    "tax": 973092,
+    "total": 31206131
+  },
+  {
+    "employee": "Constance Flatley",
+    "id": "f8078001-fd93-400d-aed0-b443d105d2b6",
+    "sub_total": 30067187,
+    "tax": 1106847,
+    "total": 31174034
+  },
+  {
+    "employee": "Juanita Effertz",
+    "id": "b4f57a08-dcf3-4e42-bce7-1b32f01fad89",
+    "sub_total": 29891275,
+    "tax": 1187919,
+    "total": 31079194
+  },
+  {
+    "employee": "Cory Leffler",
+    "id": "13d018f3-2182-4ddf-be25-956773d6d19f",
+    "sub_total": 29890278,
+    "tax": 1179855,
+    "total": 31070133
+  },
+  {
+    "employee": "Megan Heller",
+    "id": "92dc5a4e-d554-462c-a001-a66cec6c7575",
+    "sub_total": 29721997,
+    "tax": 1312636,
+    "total": 31034633
+  },
+  {
+    "employee": "Cedric Sporer",
+    "id": "4358352c-3825-45fd-a4bf-1366df72358d",
+    "sub_total": 29599358,
+    "tax": 1408366,
+    "total": 31007724
+  },
+  {
+    "employee": "Herbert Miller-Klocko",
+    "id": "c224c9d8-b37c-423a-808c-2c77018d62a0",
+    "sub_total": 30174270,
+    "tax": 678931,
+    "total": 30853201
+  },
+  {
+    "employee": "Candace Pollich",
+    "id": "b5a125f0-481c-4607-85b7-a98be708b5ea",
+    "sub_total": 29818112,
+    "tax": 993792,
+    "total": 30811904
+  },
+  {
+    "employee": "Tara Schmitt",
+    "id": "949a01ae-a1e9-40bf-b96a-9986188831cf",
+    "sub_total": 29511490,
+    "tax": 1269821,
+    "total": 30781311
+  },
+  {
+    "employee": "Erin Welch",
+    "id": "6f7c9692-01c0-4b6f-bdbf-b5e90c2a55c2",
+    "sub_total": 29725163,
+    "tax": 1010629,
+    "total": 30735792
+  },
+  {
+    "employee": "Fred Glover",
+    "id": "52c8ccfc-04e5-49ad-a80e-2aa3cc3ed473",
+    "sub_total": 29617378,
+    "tax": 1093850,
+    "total": 30711228
+  },
+  {
+    "employee": "Wilson Watsica",
+    "id": "8fe8c503-4eb1-4216-92a5-9dfa5dfc5ed7",
+    "sub_total": 29480875,
+    "tax": 1194192,
+    "total": 30675067
+  },
+  {
+    "employee": "Roosevelt Pfeffer",
+    "id": "e64c5f0c-7669-4172-8869-663271231063",
+    "sub_total": 29389399,
+    "tax": 1145563,
+    "total": 30534962
+  },
+  {
+    "employee": "Leticia Konopelski",
+    "id": "d27ee4a4-c91b-4208-81f9-70ff29070329",
+    "sub_total": 29597297,
+    "tax": 931665,
+    "total": 30528962
+  },
+  {
+    "employee": "Jeanne Zieme",
+    "id": "1563f3ab-1211-4165-8da5-daf995ad6cc5",
+    "sub_total": 29250373,
+    "tax": 1276270,
+    "total": 30526643
+  },
+  {
+    "employee": "Erik Wunsch",
+    "id": "268f40e3-b0a2-4ab1-a08a-c18f7a5cd1cf",
+    "sub_total": 29178484,
+    "tax": 1327517,
+    "total": 30506001
+  },
+  {
+    "employee": "Jean Kessler",
+    "id": "93077a9b-62e1-4077-b07a-ff0940ded6ad",
+    "sub_total": 29446309,
+    "tax": 1017984,
+    "total": 30464293
+  },
+  {
+    "employee": "Lucy Smith",
+    "id": "75d59860-a8a1-462e-a8f4-17d1b86fb4fa",
+    "sub_total": 29421374,
+    "tax": 1021264,
+    "total": 30442638
+  },
+  {
+    "employee": "Wesley Treutel",
+    "id": "df690a45-c609-494c-9ed1-3b3056d12830",
+    "sub_total": 29272570,
+    "tax": 1075136,
+    "total": 30347706
+  },
+  {
+    "employee": "Jason Ernser",
+    "id": "35da226e-2095-4e67-b568-d6d72c73126c",
+    "sub_total": 29336961,
+    "tax": 1003089,
+    "total": 30340050
+  },
+  {
+    "employee": "Sandra Conroy",
+    "id": "98323a20-1b78-4f80-ba84-f04150f68b3a",
+    "sub_total": 29184507,
+    "tax": 1152323,
+    "total": 30336830
+  },
+  {
+    "employee": "Joel Bradtke",
+    "id": "bf7ab98a-c927-4c1c-a0c0-29e4d894a733",
+    "sub_total": 29059693,
+    "tax": 1276955,
+    "total": 30336648
+  },
+  {
+    "employee": "Jason Ernser",
+    "id": "f5e28a04-66ae-4b83-b9ce-d71ebcdd7ab4",
+    "sub_total": 28977712,
+    "tax": 1325551,
+    "total": 30303263
+  },
+  {
+    "employee": "Cory Leffler",
+    "id": "b7f6a132-abd7-4ff7-ab42-47d1065798ea",
+    "sub_total": 28989200,
+    "tax": 1245628,
+    "total": 30234828
+  },
+  {
+    "employee": "Ron Schumm",
+    "id": "56e00e53-d807-4aea-ad1d-31b6cfabe53c",
+    "sub_total": 29496051,
+    "tax": 722145,
+    "total": 30218196
+  },
+  {
+    "employee": "Delores Mayert",
+    "id": "512bdaa2-1543-48c4-a695-4953e89d5bec",
+    "sub_total": 29082887,
+    "tax": 1113596,
+    "total": 30196483
+  },
+  {
+    "employee": "Laurence Hansen",
+    "id": "d7fb17da-44b9-4e3a-b584-b82d7053410f",
+    "sub_total": 28960186,
+    "tax": 1214990,
+    "total": 30175176
+  },
+  {
+    "employee": "Monica Hauck",
+    "id": "fe5a807b-62f7-4b11-a96b-52cc4c4b80e6",
+    "sub_total": 28819607,
+    "tax": 1334433,
+    "total": 30154040
+  },
+  {
+    "employee": "Eva Legros",
+    "id": "7d24f875-61e8-4718-b71b-627e2870d965",
+    "sub_total": 28867575,
+    "tax": 1282219,
+    "total": 30149794
+  },
+  {
+    "employee": "Lois Abernathy",
+    "id": "079a43f5-8ab4-426a-a4b6-ef84cdd44916",
+    "sub_total": 28866737,
+    "tax": 1263314,
+    "total": 30130051
+  },
+  {
+    "employee": "Nina Gusikowski",
+    "id": "c506af4a-d593-4c09-b28b-27a0b890e57f",
+    "sub_total": 29024412,
+    "tax": 1094319,
+    "total": 30118731
+  },
+  {
+    "employee": "Alonzo Schiller",
+    "id": "9ebd8aa5-4b18-42fd-8c20-f8c089f1644a",
+    "sub_total": 28745014,
+    "tax": 1242899,
+    "total": 29987913
+  },
+  {
+    "employee": "Cesar Crist",
+    "id": "37c132de-4993-4ecb-bba0-b7a89ec70638",
+    "sub_total": 28719834,
+    "tax": 1261038,
+    "total": 29980872
+  },
+  {
+    "employee": "Al Shields",
+    "id": "f2a06ba7-7f00-42d6-9608-3cf6132f88f1",
+    "sub_total": 28629673,
+    "tax": 1344387,
+    "total": 29974060
+  },
+  {
+    "employee": "Kurt Torp",
+    "id": "31ad4b06-93f1-4da9-9a92-d5911f615f22",
+    "sub_total": 29100593,
+    "tax": 860986,
+    "total": 29961579
+  },
+  {
+    "employee": "Gayle Ledner",
+    "id": "6c6afe6e-15d6-4218-aa0e-af7b12fc697a",
+    "sub_total": 28909757,
+    "tax": 1028388,
+    "total": 29938145
+  },
+  {
+    "employee": "Carl Krajcik",
+    "id": "afb567d6-8977-489a-91e5-f07ce44a4474",
+    "sub_total": 29261539,
+    "tax": 674379,
+    "total": 29935918
+  },
+  {
+    "employee": "Delia Rippin",
+    "id": "d332e633-030c-450d-b590-0c8b3406388b",
+    "sub_total": 28849652,
+    "tax": 1066266,
+    "total": 29915918
+  },
+  {
+    "employee": "Megan Green",
+    "id": "3fb0452c-129c-47f6-a262-d2099716e125",
+    "sub_total": 28890784,
+    "tax": 1016136,
+    "total": 29906920
+  },
+  {
+    "employee": "Dawn Gorczany",
+    "id": "093886ce-9fe5-413f-813a-c71af1c104e8",
+    "sub_total": 29229765,
+    "tax": 634909,
+    "total": 29864674
+  },
+  {
+    "employee": "Kim Kutch",
+    "id": "8b9b74d2-ebe8-4e34-87e4-7791f8051fd0",
+    "sub_total": 28574061,
+    "tax": 1284811,
+    "total": 29858872
+  },
+  {
+    "employee": "Shawn Rempel",
+    "id": "b21bfa9a-4ccb-4be4-ad9f-e6378d39ae8e",
+    "sub_total": 28830262,
+    "tax": 1018168,
+    "total": 29848430
+  },
+  {
+    "employee": "Julius Hessel",
+    "id": "670c17af-6d82-40b4-804f-4b7430e26cd9",
+    "sub_total": 28442139,
+    "tax": 1380135,
+    "total": 29822274
+  },
+  {
+    "employee": "Jeanne Zieme",
+    "id": "c09ecfe7-76ef-4868-8a1b-64b270212053",
+    "sub_total": 28862175,
+    "tax": 955741,
+    "total": 29817916
+  },
+  {
+    "employee": "Jesus Kunde",
+    "id": "d84775f4-f757-48cb-8eac-8f1548532a47",
+    "sub_total": 28880311,
+    "tax": 891578,
+    "total": 29771889
+  },
+  {
+    "employee": "Rachael Conroy-Wiegand",
+    "id": "9b45b7b2-ee42-45d3-865b-ce574060db6f",
+    "sub_total": 28833537,
+    "tax": 907990,
+    "total": 29741527
+  },
+  {
+    "employee": "Eddie MacGyver",
+    "id": "b202cce4-eb8d-4d7d-9d8d-884ba32a7e7c",
+    "sub_total": 28679973,
+    "tax": 1035099,
+    "total": 29715072
+  },
+  {
+    "employee": "Ernestine Rolfson",
+    "id": "01c49eb1-1d75-481c-a40c-36a2a005cad8",
+    "sub_total": 28806296,
+    "tax": 906208,
+    "total": 29712504
+  },
+  {
+    "employee": "Gregory Hayes",
+    "id": "fed91a53-da5a-45f8-b32b-f4c5da193879",
+    "sub_total": 28603799,
+    "tax": 1090054,
+    "total": 29693853
+  },
+  {
+    "employee": "Jim Nader",
+    "id": "ea081b63-a7b0-4d0e-8cc8-d623b1a776fb",
+    "sub_total": 29024660,
+    "tax": 667793,
+    "total": 29692453
+  },
+  {
+    "employee": "Aubrey Stanton",
+    "id": "fe4ef579-2efb-4d09-82e1-ccb481ba86f0",
+    "sub_total": 28632778,
+    "tax": 1055812,
+    "total": 29688590
+  },
+  {
+    "employee": "Stewart Jacobs",
+    "id": "5fb8c138-aee7-43aa-941a-4e79bbea9a11",
+    "sub_total": 29124671,
+    "tax": 557030,
+    "total": 29681701
+  },
+  {
+    "employee": "Georgia Rice",
+    "id": "a8b88319-c373-488b-b6ce-5d986b2bc01a",
+    "sub_total": 28816729,
+    "tax": 850351,
+    "total": 29667080
+  }
+]

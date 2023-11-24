@@ -1,0 +1,23 @@
+[
+  { "category": "Home & Garden", "products": 343 },
+  { "category": "Hardware", "products": 322 },
+  { "category": "Electronics", "products": 155 },
+  { "category": "Business & Industrial", "products": 146 },
+  { "category": "Furniture", "products": 134 },
+  { "category": "Office Supplies", "products": 122 },
+  { "category": "Apparel & Accessories", "products": 100 },
+  { "category": "Baby & Toddler", "products": 88 },
+  { "category": "Sporting Goods", "products": 87 },
+  { "category": "Toys & Games", "products": 79 },
+  { "category": "Health & Beauty", "products": 71 },
+  { "category": "Animals & Pet Supplies", "products": 65 },
+  { "category": "Food, Beverages & Tobacco", "products": 61 },
+  { "category": "Cameras & Optics", "products": 36 },
+  { "category": "Media", "products": 34 },
+  { "category": "Mature", "products": 29 },
+  { "category": "Software", "products": 26 },
+  { "category": "Arts & Entertainment", "products": 26 },
+  { "category": "Religious & Ceremonial", "products": 22 },
+  { "category": "Luggage & Bags", "products": 20 },
+  { "category": "Vehicles & Parts", "products": 17 }
+]
