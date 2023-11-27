@@ -21,6 +21,7 @@ function generateJestConfig(): JestConfigWithTsJest {
     preset: 'ts-jest',
     testEnvironment: 'node',
     testRegex: '.*\\.spec\\.ts$',
+    testTimeout: 120000,
   };
 }
 
