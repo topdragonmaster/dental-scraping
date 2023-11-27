@@ -1,10 +1,16 @@
 import { Runner } from '@src/support/Runner';
-import type { TProduct } from '@src/support/TProduct';
+import type { TProduct, TVariationProductPageUrl } from '@src/support/TProduct';
 import { dump } from '@src/support/utils';
 import { Command, Option } from 'nest-commander';
+import cheerio from 'cheerio';
+import puppeteer from 'puppeteer'
 
 export type TOptions = {
   productPageUrl: string;
+};
+
+type TSpecs = {
+  [key: string]: string;
 };
 
 @Command({
@@ -35,6 +41,61 @@ export class MidwestDentalScrapingExercises extends Runner<TOptions> {
    * @param productPageUrl Product page URL to scrape.
    */
   public async scrapeProductPageUrl(productPageUrl: string): Promise<TProduct> {
-    throw new Error(`Requested ${productPageUrl}, not implemented.`);
+    try {
+      const browser = await puppeteer.launch({
+        headless: false,
+        args: ['--disable-http2'],
+      });
+      const page = await browser.newPage();
+      console.log(productPageUrl)
+      await page.goto(productPageUrl, { timeout: 60000 });
+      const html = await page.content();
+      let $ = cheerio.load(html);
+
+      // Extract information from the HTML
+      const breadcrumbsElement = $('.breadcrumbs .breadcrumbs__item');
+      const category = breadcrumbsElement
+        .children('a.breadcrumbs__link')
+        .slice(1)
+        .map((index, element) => $(element).text().toLocaleLowerCase())
+        .get();
+      const description = $('.product-view__description .collapse-view__container').text().trim();
+      const imageUrl = 'https://midewestendal.com' + $('.product-view-media-gallery__image-item img').attr('src');
+      const manufacturerName = $('.product-view__attribute-item-mfg .product-view__attribute-item-value').text().trim()
+      const manufacturerSku = $('.product-view__attribute-item-mfg_part_number .product-view__attribute-item-value').text().trim();
+      const name = $('h1.page-title span[itemprop="name"]').text().trim();
+      const productSku = $('.product-view__attribute-item-sku .product-view__attribute-item-value').text().trim();
+      const saleUnit = $('.product-view__attribute-item-contains .product-view__attribute-item-value').text().trim();
+      const specs: TSpecs = {};
+      const variationProductPageUrls: TVariationProductPageUrl[] = []
+        const productList = await page.$$('.matrix-order-widget__grid-tbody .matrix-order-widget__grid-tbody-row');
+        for (const product of productList) {
+          await product.click()
+          await page.waitForNavigation({ waitUntil: 'domcontentloaded' });
+          const currentUrl = page.url();
+          variationProductPageUrls.push(currentUrl)
+          await page.goBack();
+
+        }
+      // Construct the TProduct object
+      const product: TProduct = {
+        category,
+        description: [description],
+        imageUrl,
+        manufacturerName,
+        manufacturerSku,
+        name,
+        productPageUrl,
+        productSku,
+        saleUnit,
+        specs,
+        variationProductPageUrls
+      };
+
+      return product;
+    } catch (error) {
+      console.error('Error scraping product page:', error);
+      throw error;
+    }
   }
 }
