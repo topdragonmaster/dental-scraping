@@ -103,8 +103,17 @@ export class DatabaseExercises extends Runner<TOptions> {
    * combining the result of multiple queries using TypeScript.
    */
   public async exercise001(): Promise<TExercise001Row[]> {
-    // return await this.dbSvc.db.all<TExercise001Row[]>(`...`);
-    throw new Error('Not Implemented.');
+
+    return await this.dbSvc.db.all<TExercise001Row[]>(`
+    SELECT
+      c1.name AS n1,
+      c2.name AS n2,
+      c3.name AS n3
+    FROM categories c1
+    LEFT Join categories c2 ON c2.parent_category_id = c1.id
+    LEFT JOIN categories c3 ON c3.parent_category_id = c2.id
+    ORDER BY n1, n2, n3;
+  `);
   }
 
   /**
@@ -133,8 +142,32 @@ export class DatabaseExercises extends Runner<TOptions> {
    * combining the result of multiple queries using TypeScript.
    */
   public async exercise002(): Promise<TExercise002Row[]> {
-    // return await this.dbSvc.db.all<TExercise002Row[]>(`...`);
-    throw new Error('Not Implemented.');
+    return await this.dbSvc.db.all<TExercise002Row[]>(`
+    WITH RECURSIVE category_hierarchy AS (
+      SELECT id, name, parent_category_id
+      FROM categories
+      WHERE parent_category_id IS NULL
+
+      UNION ALL
+
+      SELECT c.id, c.name, c.parent_category_id
+      FROM categories c
+      JOIN category_hierarchy ch ON c.parent_category_id = ch.id
+    )
+
+    SELECT
+      tlc.name AS category,
+      COALESCE(SUM(p.count), 0) AS products
+    FROM category_hierarchy tlc
+    LEFT JOIN (
+      SELECT c.id, COUNT(p.id) AS count
+      FROM categories c
+      LEFT JOIN products p ON p.category_id = c.id
+      GROUP BY c.id
+    ) AS p ON p.id IN (SELECT id FROM category_hierarchy WHERE id = tlc.id OR parent_category_id = tlc.id)
+    GROUP BY tlc.name
+    ORDER BY products DESC;
+  `);
   }
 
   /**
@@ -161,8 +194,21 @@ export class DatabaseExercises extends Runner<TOptions> {
    * combining the result of multiple queries using TypeScript.
    */
   public async exercise003(): Promise<TExercise003Row[]> {
-    // return await this.dbSvc.db.all<TExercise003Row[]>(`...`);
-    throw new Error('Not Implemented.');
+    return await this.dbSvc.db.all<TExercise003Row[]>(`
+    SELECT
+      o.id,
+      e.first_name || ' ' || e.last_name AS employee,
+      FLOOR(SUM(item.quantity * p.unit_price * (1.0 + 0.05 * p.is_tax_exempt))) AS total,
+      FLOOR(SUM(item.quantity * p.unit_price)) AS sub_total,
+      FLOOR(SUM(item.quantity * p.unit_price * 0.05 * p.is_tax_exempt)) AS tax
+    FROM orders o
+    JOIN employees e ON o.created_by = e.id
+    JOIN items item ON o.id = item.order_id
+    JOIN products p ON item.product_id = p.id
+    GROUP BY o.id
+    ORDER BY total DESC
+    LIMIT 100;
+  `);
   }
 
   /**
@@ -176,7 +222,18 @@ export class DatabaseExercises extends Runner<TOptions> {
    * combining the result of multiple queries using TypeScript.
    */
   public async exercise004(): Promise<TExercise004Row[]> {
-    // return await this.dbSvc.db.all<TExercise004Row[]>(`...`);
-    throw new Error('Not Implemented.');
+    return await this.dbSvc.db.all<TExercise004Row[]>(`
+    SELECT
+      c.name as company,
+      COALESCE(FLOOR(SUM(item.quantity * p.unit_price * (1.0 + 0.05 * p.is_tax_exempt))), 0) AS total
+    FROM orders o
+    JOIN employees e ON o.created_by = e.id
+    JOIN companies c ON c.id = e.company_id
+    JOIN items item ON o.id = item.order_id
+    JOIN products p ON item.product_id = p.id
+    WHERE strftime('%Y', datetime(o.created_at, 'unixepoch')) = '2022'
+    GROUP BY e.company_id
+    ORDER BY total DESC;
+  `);
   }
 }
